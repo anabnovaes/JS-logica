@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
 
 :root {
-  --mainPink: #ef7998;
+  --mainPink: #ffb600;
   --mainYellow: rgb(249, 228, 148);
   --mainWhite: #fff;
   --mainBlack: #000;
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: "Kaushan Script", cursive;
+  font-family: "Livvic", cursive;
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
