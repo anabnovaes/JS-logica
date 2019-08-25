@@ -69,6 +69,11 @@ const templateProdutoCarrinho = `
        const carrinho = document.getElementById('cart');
        const totalCarrinho = document.querySelector('.cart-total-container');
        carrinho.insertBefore(divProdutoInserido,totalCarrinho);
+       const quantidadeProdutosCarrinho = document.getElementById('item-count');
+       const quantidadeProdutosCarrinhoNumber = parseInt (quantidadeProdutosCarrinho.innerText)+1;
+       quantidadeProdutosCarrinho.innerHTML = quantidadeProdutosCarrinhoNumber;
+
        console.log('Inseriu');
+
 
 ;}
